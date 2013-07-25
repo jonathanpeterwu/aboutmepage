@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Aboutmepage</title>
+  <title>All About Johnny Wu and his 30 Day Challenge</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<% render 'layouts/header'	
+
 <%= yield %>
+
+<% render 'layouts/footer'
 
 </body>
 </html>

@@ -1,4 +1,11 @@
 Aboutmepage::Application.routes.draw do
+    
+    root :to => 'pages#home'
+    get 'about' => 'pages#about'
+
+end
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
